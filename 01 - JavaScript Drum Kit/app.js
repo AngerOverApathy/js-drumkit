@@ -4,4 +4,5 @@ document.addEventListener('keydown', function(e){
     if (!audio) return;
     audio.currentTime = 0 //rewind to start
     audio.play()
+    key.classList.add('playing') //add css class to key
 })
