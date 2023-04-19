@@ -9,6 +9,7 @@ document.addEventListener('keydown', function(e){
 
 function removeTransition(e){
     if(e.propertyName !== 'transform') return; //skip if not a transform
+    this.classList.remove('playing')
 }
 
 const keys = document.querySelectorAll('.key')
