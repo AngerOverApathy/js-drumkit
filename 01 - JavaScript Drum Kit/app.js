@@ -7,5 +7,9 @@ document.addEventListener('keydown', function(e){
     key.classList.add('playing') //add css class to key
 })
 
+function removeTransition(e){
+    if(e.propertyName !== 'transform') return; //skip if not a transform
+}
+
 const keys = document.querySelectorAll('.key')
 keys.forEach(key => key.addEventListener('transitionend', removeTransition))
