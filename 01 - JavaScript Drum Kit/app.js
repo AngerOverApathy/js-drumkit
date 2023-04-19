@@ -6,3 +6,6 @@ document.addEventListener('keydown', function(e){
     audio.play()
     key.classList.add('playing') //add css class to key
 })
+
+const keys = document.querySelectorAll('.key')
+keys.forEach(key => key.addEventListener('transitionend', removeTransition))
