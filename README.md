@@ -1,6 +1,6 @@
 This repository contains a JavaScript drum kit project that allows users to play various drum sounds by pressing corresponding keys on their keyboard. It provides an interactive and enjoyable way to explore the world of drumming through the browser.
 
-## Features#
+## Features
 Keyboard Interaction: The drum kit responds to specific key presses on the user's keyboard. Each key is associated with a different drum sound, providing an immersive and interactive drumming experience.
 
 **Dynamic UI:** When a key is pressed, the corresponding drum element on the user interface visually responds with animation and styling changes, mimicking the action of playing a real drum.
